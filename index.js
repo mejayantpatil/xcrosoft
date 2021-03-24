@@ -16,6 +16,6 @@ app.get('/', function(req,res){
     res.send('This is the Xcrosoft');
 });
 
-app.listen(3000, function(err){
+app.listen(process.env.PORT || 3000, function(err){
     console.log('Server is runing on port localhost:3000');
 });
