@@ -1,0 +1,13 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+header,footer {
+    padding: 5px;
+}
+body {
+
+}
+.name {
+    color: orangered;
+    font-weight: 400!important;
+}
