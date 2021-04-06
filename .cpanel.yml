@@ -1,7 +1,7 @@
 ---
 deployment:
  tasks:
-  - export DEPLOYPATH=/home/xcrokabc/public_html/
+  - export DEPLOYPATH=/home/xcrokabc/demo/
   - /bin/cp -R public/ $DEPLOYPATH
   - /bin/cp index.js $DEPLOYPATH
   - /bin/cp package.json $DEPLOYPATH
